@@ -1,0 +1,44 @@
+LINUX :
+  Linux is an operating system,and it is a collection of files on a disk or a partition.
+  It is a fastest growing operating system and it is used by almost all devices from phones to supercomputers all major hardware devices 
+  Linux allows us to run the program,freedom to change the code according to our use,it supports various security options that protect from viruses,malware and crashes
+LINUX ROOT FILE SYSTEM :
+   A root filesytem is available in the root hierarchy, also known as /. It is the first available filesystem and also the one 
+  on which the mount command is not used, since it is mounted directly by the kernel through the root= argument. The following are the multiple options to load the root filesystem:
+/bin: It refers to the location of most programs
+/sbin: It refers location of system programs
+/boot: It refers the location for boot options, such as the kernel image, kernel config, initrd, system maps, and other information
+/home: This refers to user home directory
+/root: This refers the location of the root user's home location
+/usr: It refers user-specific programs and libraries, and mimics parts of the content of the root filesystem
+/lib: It refers to the location of libraries
+/etc: This refers to the system-wide configurations
+/dev: This refers to the location of device files
+/media: It refers the location of mount points of removable devices
+/mnt: This refers to the mount location point of static media
+/proc: This refers to the mounting point of the proc virtual filesystem
+/sys: It refers to mounting point of the sysfs virtual filesystem
+/tmp: This refers to the location temporary files
+/var: This refers  data files, such as logging data, administrative information, or the location of transient data
+LINUX FILE SYSTEMS TYPES:
+   ext: It is an elaborate extension of the minix filesystem.  It has
+        been completely superseded by the second version of the
+        extended filesystem (ext2) and has been removed from the
+        kernel (in 2.1.21).
+
+   ext2:It is the high performance disk filesystem used by Linux for
+        fixed disks as well as removable media.  The second
+        extended filesystem was designed as an extension of the
+        extended filesystem (ext).  See ext2(5).
+
+   ext3:It is a journaling version of the ext2 filesystem.  It is
+        easy to switch back and forth between ext2 and ext3.  See
+        ext3
+
+   ext4:It is a set of upgrades to ext3 including substantial
+        performance and reliability enhancements, plus large
+        increases in volume, file, and directory size limits.  See
+        ext4(5).
+   
+   XFS: It is a journaling filesystem, developed by SGI, that was
+        integrated into Linux in kernel 2.4.20.
